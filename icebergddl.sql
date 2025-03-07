@@ -11,7 +11,7 @@ CREATE OR REPLACE ICEBERG TABLE ICYTRANSCOME (
   )
   CATALOG = 'SNOWFLAKE'
   EXTERNAL_VOLUME = 'transcom_tspanniceberg_extvol'
-  BASE_LOCATION = 's3://se-tspann-apacheiceberg/transcom/';
+  BASE_LOCATION = 'transcom';
 
 
   describe table ICYTRANSCOME;
